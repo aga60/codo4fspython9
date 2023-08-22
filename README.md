@@ -13,10 +13,19 @@ El proyecto consiste en...
 </ul>
 
 ## Etapas
-  Definición del tema
-  Definición estructura
-  Proyecto de medio término
-    Maqueta
-    HTML
-    CSS
-  Proyecto final
+<ul>
+<li>Definición del tema</li>
+<li>Definición estructura</li>
+<li>Proyecto de medio término</li>
+  <ul>
+  <li>Maqueta</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>...</li>
+  </ul>ul>
+<li>Proyecto final</li>
+  <ul>
+  <li>...</li>
+  <li>...</li>
+  </ul>ul>
+</ul>
