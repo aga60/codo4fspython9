@@ -5,6 +5,11 @@ Repositorio para el proyecto del curso Codo a Codo 4-Full Stack Python-Grupo 9
 El proyecto consiste en...
 
 ## Integrantes del Grupo 9
+- Agunin, Aldo
+- Cestoni, Dora Elizabeth
+- Klepache, Raquel
+- Robles, Ezequiel
+
 <ul>
 <li>Agunin, Aldo</li>
 <li>Cestoni, Dora Elizabeth</li>
