@@ -22,5 +22,12 @@ El proyecto consiste en...
   - ...
   - ...
 
+## Herramientas
+- VSCode (editor)
+- Extensiones: open in browser, Live Server
+- https://convertico.com/es/jpg-a-ico/ (convertidor de .jpg a .ico)
+- https://formspree.io/ (para probar formularios)
+- 
+
 ## Recursos
-(alojamiento, validadores, herramientas, etc.)
+(alojamiento, validadores, etc.)
