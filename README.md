@@ -22,10 +22,10 @@ El proyecto consiste en...
   <li>HTML</li>
   <li>CSS</li>
   <li>...</li>
-  </ul>ul>
+  </ul>
 <li>Proyecto final</li>
   <ul>
   <li>...</li>
   <li>...</li>
-  </ul>ul>
+  </ul>
 </ul>
