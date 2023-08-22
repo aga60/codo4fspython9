@@ -29,3 +29,6 @@ El proyecto consiste en...
   <li>...</li>
   </ul>
 </ul>
+
+## Recursos
+(alojamiento, validadores, herramientas, etc.)
