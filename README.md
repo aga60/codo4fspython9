@@ -13,10 +13,11 @@ El proyecto consiste en...
 ## Etapas
 - Definición del tema
 - Definición estructura
-- Proyecto de medio término
+- Proyecto de medio término (TPO Desarrollo Web - HTML CSS JS)
   - Maqueta
   - HTML
   - CSS
+  - JS
   - ...
 - Proyecto final
   - ...
