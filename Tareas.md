@@ -1,18 +1,11 @@
 Tareas para el proyecto:
-
+| TAREA | REALIZADO |
+|-------|-----------|
 | Clase 1 HTML | |
 | Empezar a formar un grupo/equipo de 4 personas. | Hecho | 
 | Comenzar a pensar en el contenido del proyecto web. | | 
 | Recuerden que la temática es libre. | Hecho | 
-| Recomendamos visitar sitios web de similares temáticas.|  | 
-| (Arquería) |  | 
-| Clubes de Ciudad Autónoma de Buenos Aires (CABA) https://www.arquerosonline.com.ar/clubes/1 |  | 
-| Club de Tiro Independencia https://arcosur.com/ | | 
-| Club Universitario de Arquería http://cuda.com.ar/ | 
-| Escuela de Arquería Asociación Civil https://escueladearqueria.com.ar/ | 
-| Escuela de Tiro con Arco https://www.etca.com.ar/ | 
-| Total Archery https://totalarchery.net/ | 
-| El Halcón Peregrino http://elhalconperegrino.com.ar/ | 
+| Recomendamos visitar sitios web de similares temáticas.(1) (2) (3) | |
 |  |  | 
 | Clase 2 HTML | | 
 | Continuar con la formación de los grupos/equipos de 4 personas. | Hecho | 
@@ -47,4 +40,14 @@ Tareas para el proyecto:
 | | | 
 | | | 
 | | | 	
-	
+
+| TEMA | SITIOS |
+|------|--------|
+| (1) Arquería | |
+| | Clubes de Ciudad Autónoma de Buenos Aires (CABA) https://www.arquerosonline.com.ar/clubes/1| 
+| | Club de Tiro Independencia https://arcosur.com/| 
+| | Club Universitario de Arquería http://cuda.com.ar/| 
+| | Escuela de Arquería Asociación Civil https://escueladearqueria.com.ar/| 
+| | Escuela de Tiro con Arco https://www.etca.com.ar/| 
+| | Total Archery https://totalarchery.net/| 
+| | El Halcón Peregrino http://elhalconperegrino.com.ar/| 
