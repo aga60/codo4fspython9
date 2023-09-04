@@ -56,6 +56,12 @@ Tareas para el proyecto:
 | Clase 8 CSS| | 
 | Agregar efectos al menú de navegación. Podrá aprovechar las pseudoclases vistas en la clase de hoy.| | 
 | | | 
+| Clase 9 CSS| | 
+| En función de la distribución (layout) elegida para el proyecto utilizar Flexbox para maquetar el encabezado (header) y/o pie
+(footer)| | 
 | | | 
-| | | 	
+| Clase 10 CSS| | 
+| En función de la distribución (layout) elegida para el proyecto utilizar Grid para maquetar el contenido principal (main) de las
+páginas del sitio.| | 
+| | | 
 
