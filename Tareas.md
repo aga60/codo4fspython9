@@ -43,7 +43,12 @@ Tareas para el proyecto:
 
 | TEMA | SITIOS |
 |------|--------|
-| (1) Arquería | |
+|(1) Complejo termal||
+|||
+|||
+|(2) Cervezas, estilos y cervecerías||
+|||
+| (3) Arquería | |
 | | Clubes de Ciudad Autónoma de Buenos Aires (CABA) https://www.arquerosonline.com.ar/clubes/1| 
 | | Club de Tiro Independencia https://arcosur.com/| 
 | | Club Universitario de Arquería http://cuda.com.ar/| 
