@@ -1,3 +1,21 @@
+Temas:
+| TEMA | SITIOS |
+|------|--------|
+|(1) Complejo termal||
+|||
+|||
+|(2) Cervezas, estilos y cervecerías||
+|||
+| (3) Arquería | |
+| | Clubes de Ciudad Autónoma de Buenos Aires (CABA) https://www.arquerosonline.com.ar/clubes/1| 
+| | Club de Tiro Independencia https://arcosur.com/| 
+| | Club Universitario de Arquería http://cuda.com.ar/| 
+| | Escuela de Arquería Asociación Civil https://escueladearqueria.com.ar/| 
+| | Escuela de Tiro con Arco https://www.etca.com.ar/| 
+| | Total Archery https://totalarchery.net/| 
+| | El Halcón Peregrino http://elhalconperegrino.com.ar/| 
+
+
 Tareas para el proyecto:
 | TAREA | REALIZADO |
 |-------|:---------:|
@@ -41,18 +59,3 @@ Tareas para el proyecto:
 | | | 
 | | | 	
 
-| TEMA | SITIOS |
-|------|--------|
-|(1) Complejo termal||
-|||
-|||
-|(2) Cervezas, estilos y cervecerías||
-|||
-| (3) Arquería | |
-| | Clubes de Ciudad Autónoma de Buenos Aires (CABA) https://www.arquerosonline.com.ar/clubes/1| 
-| | Club de Tiro Independencia https://arcosur.com/| 
-| | Club Universitario de Arquería http://cuda.com.ar/| 
-| | Escuela de Arquería Asociación Civil https://escueladearqueria.com.ar/| 
-| | Escuela de Tiro con Arco https://www.etca.com.ar/| 
-| | Total Archery https://totalarchery.net/| 
-| | El Halcón Peregrino http://elhalconperegrino.com.ar/| 
