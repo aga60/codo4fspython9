@@ -3,7 +3,6 @@ Temas:
 |------|--------|
 |(1) Complejo termal||
 |||
-|||
 |(2) Cervezas, estilos y cervecerías||
 |||
 | (3) Arquería | |
@@ -24,7 +23,7 @@ Tareas para el proyecto:
 | Comenzar a pensar en el contenido del proyecto web. | | 
 | Recuerden que la temática es libre. | Hecho | 
 | Recomendamos visitar sitios web de similares temáticas.(1) (2) (3) | |
-|  |  | 
+| | | 
 | Clase 2 HTML | | 
 | Continuar con la formación de los grupos/equipos de 4 personas. | Hecho | 
 | Los estudiantes deberán armar una única planilla por comisión para comenzar a anotarse. Luego lo informarán a través de un formulario de Google. | Hecho | 
