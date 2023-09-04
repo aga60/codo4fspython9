@@ -1,6 +1,6 @@
 Tareas para el proyecto:
 | TAREA | REALIZADO |
-|-------|-----------|
+|-------|:---------:|
 | Clase 1 HTML | |
 | Empezar a formar un grupo/equipo de 4 personas. | Hecho | 
 | Comenzar a pensar en el contenido del proyecto web. | | 
