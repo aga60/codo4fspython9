@@ -29,7 +29,7 @@ Tareas para el proyecto:
 | Clase 2 HTML | | 
 | Continuar con la formación de los grupos/equipos de 4 personas. | Hecho | 
 | Los estudiantes deberán armar una única planilla por comisión para comenzar a anotarse. Luego lo informarán a través de un formulario de Google. | Hecho | 
-| Comenzar a diagramar los layouts/estructura de cada página del sitio web.|  | 
+| Comenzar a diagramar los layouts/estructura de cada página del sitio web.(**home**, eventos, clases, **contacto**)|  | 
 | | | 
 | Clase 3 HTML|  | 
 | Familiarizarse con el uso de servicios hosting gratuitos.|  | 
