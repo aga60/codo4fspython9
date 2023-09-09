@@ -11,18 +11,9 @@ El proyecto consiste en...
 - Robles, Ezequiel
 
 ## Etapas
-- Definición del tema
-- Definición estructura
 - Proyecto de medio término (TPO Desarrollo Web - HTML CSS JS)
-  - Maqueta
-  - HTML
-  - CSS
-  - JS
-  - ...
   - Entrega: Clase 22-viernes 20 de octubre
 - Proyecto final
-  - ...
-  - ...
   - Entrega: Clase 35 a 37- a partir del 4 de diciembre
 
 ## Herramientas
@@ -30,7 +21,11 @@ El proyecto consiste en...
 - Extensiones: open in browser, Live Server
 - CONVERTICO (convertidor de .jpg a .ico) https://convertico.com/es/jpg-a-ico/
 - Formspree (para probar formularios) https://formspree.io/
+- (Para validar código) https://validator.w3.org
 - 
 
 ## Recursos
-(alojamiento, validadores, etc.)
+- Este repositorio: 
+- Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
+- Hosting:
+- 
