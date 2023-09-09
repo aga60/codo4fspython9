@@ -28,8 +28,5 @@ El proyecto consiste en...
 - Este repositorio: https://github.com/aga60/codo4fspython9
 - Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
 - Hosting:
-- [I'm an inline-style link](https://www.google.com)
-- Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
-- prueba <a href=”https://trello.com/b/eTaGudRK/tpo-desarrollo-web” target=”_blank”>https://trello.com/b/eTaGudRK/tpo-desarrollo-web</a>.
-
-
+- 
+- [go](http://stackoverflow.com){:target="_blank"}.
