@@ -29,4 +29,4 @@ El proyecto consiste en...
 - Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
 - Hosting:
 - 
-- [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+
