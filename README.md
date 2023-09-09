@@ -30,6 +30,6 @@ El proyecto consiste en...
 - Hosting:
 - [I'm an inline-style link](https://www.google.com)
 - Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
-- <a href=”(https://trello.com/b/eTaGudRK/tpo-desarrollo-web)https://trello.com/b/eTaGudRK/tpo-desarrollo-web” target=”_blank”>texto ancla</a>.
+- prueba <a href=”https://trello.com/b/eTaGudRK/tpo-desarrollo-web” target=”_blank”>https://trello.com/b/eTaGudRK/tpo-desarrollo-web</a>.
 
 
