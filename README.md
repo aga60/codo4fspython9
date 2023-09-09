@@ -16,6 +16,7 @@ El proyecto consiste en...
 - Proyecto final
   - Entrega: Clase 35 a 37- a partir del 4 de diciembre
 
+(Nota: los links en GitHub se abren siempre en la misma pestaña del navegador, si quiere abrirlos en pestaña nueva tiene que usar Control+Click o botón derecho, abrir en pestaña nueva)
 ## Herramientas
 - Visual Studio Code (editor) https://code.visualstudio.com/
 - Extensiones: open in browser, Live Server
@@ -28,5 +29,5 @@ El proyecto consiste en...
 - Este repositorio: https://github.com/aga60/codo4fspython9
 - Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
 - Hosting:
-- 
+
 
