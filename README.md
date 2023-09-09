@@ -29,4 +29,4 @@ El proyecto consiste en...
 - Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
 - Hosting:
 
-**(Nota: los links en GitHub se abren siempre en la misma pestaña del navegador, si quiere abrirlos en pestaña nueva tiene que usar Control+Click)**
+**(Nota: los links en GitHub se abren siempre en la misma pestaña del navegador, si quiere abrirlos en pestaña nueva tienen que usar Control+Click)**
