@@ -25,7 +25,10 @@ El proyecto consiste en...
 - 
 
 ## Recursos
-- Este repositorio: 
+- Este repositorio: https://github.com/aga60/codo4fspython9/tree/main
+- https://github.com/aga60/codo4fspython9/tree/
+- https://github.com/aga60/codo4fspython9/
+- https://github.com/aga60/codo4fspython9
 - Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
 - Hosting:
 - 
