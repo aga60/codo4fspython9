@@ -22,10 +22,10 @@ Tareas para el proyecto:
 |TAREA|REALIZADO|
 |-----|:-------:|
 |**Clase 1 HTML**||
-|Empezar a formar un grupo/equipo de 4 personas.|Hecho|
-|Comenzar a pensar en el contenido del proyecto web.|Hecho|
-|Recuerden que la temática es libre.|Hecho|
-|Recomendamos visitar sitios web de similares temáticas.(1) (2) (3)||
+|1.1 Empezar a formar un grupo/equipo de 4 personas.|Hecho|
+|1.2 Comenzar a pensar en el contenido del proyecto web.|Hecho|
+|1.3 Recuerden que la temática es libre.|Hecho|
+|1.4 Recomendamos visitar sitios web de similares temáticas.(1) (2) (3)||
 |||
 |**Clase 2 HTML**||
 |Continuar con la formación de los grupos/equipos de 4 personas.|Hecho|
