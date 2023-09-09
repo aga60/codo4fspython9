@@ -2,7 +2,7 @@
 Repositorio para el proyecto del curso Codo a Codo 4-Full Stack Python-Grupo 9
 
 ## Presentación del Proyecto
-El proyecto consiste en...
+El proyecto consiste en el diseño e implementación del sitio web para un club de arquería (tiro con arco y flecha).
 
 ## Integrantes del Grupo 9
 - Agunin, Aldo
@@ -17,11 +17,11 @@ El proyecto consiste en...
   - Entrega: Clase 35 a 37- a partir del 4 de diciembre
 
 ## Herramientas
-- Visual Studio Code (editor) https://code.visualstudio.com/
+- Editor de código: Visual Studio Code https://code.visualstudio.com/
 - Extensiones: open in browser, Live Server
-- CONVERTICO (convertidor de .jpg a .ico) https://convertico.com/es/jpg-a-ico/
-- Formspree (para probar formularios) https://formspree.io/
-- (Para validar código) https://validator.w3.org
+- Convertidor de imagenes .jpg a .ico: CONVERTICO https://convertico.com/es/jpg-a-ico/
+- Para probar formularios: Formspree https://formspree.io/
+- Para validar código: https://validator.w3.org
 - 
 
 ## Recursos
