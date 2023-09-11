@@ -1,1 +1,1 @@
-# Acá van los html (excepto index.html)
+# /templates/ Acá van los html (excepto index.html)
