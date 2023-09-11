@@ -30,3 +30,13 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
 - Hosting:
 
 **(Nota: los links en GitHub se abren siempre en la misma pestaña del navegador, si quiere abrirlos en pestaña nueva tienen que usar Control+Click)**
+
+## Convenciones
+- Todos los nombres de archivos en minúsculas (solo los README en mayusculas)
+- Carpetas:
+  - css: hojas de estilos
+  - fonts: fuentes (tipografías)
+  - img: imagenes
+  - media: audio / video
+  - templates: archivos html (excepto index.html)
+    
