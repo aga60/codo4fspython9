@@ -1,1 +1,1 @@
-##Aquí van las imagenes para el proyecto##
+# Aquí van las imagenes para el proyecto #
