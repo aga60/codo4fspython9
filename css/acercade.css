@@ -18,9 +18,8 @@
 /* Aplicar estilos en el encabezado header:
 /* Color de fondo, altura, borde, tamaño de fuente, alinear texto. */
 header{
-    /* background: linear-gradient(to left, rgba(52,152,219,0.2),rgba(231,76,60,0.4)); Degradado de colores */
     background-color: rgba(199, 0, 57, 0.8);
-    height: 15vh; /*Altura*/
+    height: 20vh; /*Altura*/
     font-size: 2vw; /*Tamaño de texto*/
     text-align: start;  /*Alinear texto*/
 }
@@ -51,10 +50,21 @@ agregar separación entre hipervínculos. */
 }
 
 /* Main */
-.contenedor-grid {
+/* 1er Título (h1) */
+.contenedor-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+  
+.centrado-vertical-horizontal{
+    text-align: center; /* Centrar horizontalmente dentro del contenedor */
+}
+.contenedor-grid{
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
-    grid-gap: 5px; /* Espacio entre las imágenes (ajusta según tus necesidades) */
+    grid-gap: 5px; /* Espacio entre las imágenes  */
 }
 
 .article-acercade {
