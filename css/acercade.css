@@ -1,14 +1,35 @@
+/* TIPOGRAFIA */
+/*@font-face {
+    font-family: "Itim";
+    src: url('../fonts/Itim/Itim-Regular.ttf');
+}*/
+
 /* Selector universal */
 *{
     margin: 0%; /*Elimina todo margen que trae por defecto*/
     padding: 0%; /*Elimina todo relleno que trae por defecto*/
+    /*font-family: "Itim";*/ /*Fuente desde la carpeta fonts*/
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Eliminar comportamiento en bloque de nav y la div */
+/* Aplicar estilos en el encabezado header:
+/* Color de fondo, altura, borde, tamaño de fuente, alinear texto. */
+header{
+    /* background: linear-gradient(to left, rgba(52,152,219,0.2),rgba(231,76,60,0.4)); Degradado de colores */
+    background-color: rgba(199, 0, 57, 0.8);
+    height: 15vh; /*Altura*/
+    font-size: 2vw; /*Tamaño de texto*/
+    text-align: start;  /*Alinear texto*/
+}
+
+/* Header - Bloque de nav y div */
 .header-linea{
-    display: inline-block; /*Situa en linea el div y el nav*/
-    padding-right: 22vw; /*Separación a la derecha*/
-    padding-top: 3vh; /*Separación superior para el menu y logo*/
+    display: inline-block; /*Situa en linea el nav y la div */
+    padding-left: 5vw; /*Separación a la izquierda*/
+    padding-top: 2vh; /*Separación superior para el menu y logo*/
 }
 
 /* Estilo para el logo */
@@ -20,19 +41,31 @@
     box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgba(36, 37, 37, 0.8); /*Agrega sombra alrededor*/
 }
 
-/* Aplicar estilos en el encabezado header:
-   Color de fondo, altura, borde, tamaño de fuente, alinear texto.*/
-header{
-    /* background: linear-gradient(to left, rgba(52,152,219,0.2),rgba(231,76,60,0.4)); Degradado de colores */
-    background-color: rgba(199, 0, 57, 0.8);
-    height: 15vh; /*Altura*/
-    font-size: 2vw; /*Tamaño de texto*/
-    text-align: start;  /*Alinear texto*/
+/* Menu */
+/* En los hipervínculos del nav eliminar la decoración del texto, color,
+agregar separación entre hipervínculos. */
+.menu{
+    text-decoration: none; /*Elimina subrayado*/
+    color: aliceblue;  /*Color texto*/
+    padding-right: 1.0vw; /*Separación entre el texto del menu*/
+}
+
+/* Main */
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    grid-gap: 5px; /* Espacio entre las imágenes (ajusta según tus necesidades) */
+}
+
+.article-acercade {
+    border: 2px solid #000; /* Establece un borde sólido de 1 píxel de grosor y color negro */
+    /* border-radius: 5% 5% 5% 5%; Redondea esquinas del borde */
+    padding: 10vh; /* Añade espacio interno para que el contenido no esté pegado al borde */
+    margin: 5vh; /* Añade espacio externo */
 }
 
 /* Pie de página: color de fondo, altura, tamaño de fuente,
-color de texto alineación de texto.
-color: rgba(0,0,0,0.9) */
+color de texto alineación de texto. */
 footer{
     background-color: rgba(0,0,0,0.8);
     height: 15vh; /*Altura*/
@@ -40,6 +73,15 @@ footer{
     color: aliceblue; /*Color del texto*/
 }
 
-.texto-pie{
-    padding-top: 8vh; /*Agrega separación del borde del pie de página al texto*/
+/* Eliminar comportamiento en bloque entre divs del footer */
+.footer-text{
+    display: inline-block; /*Situa en linea el div y el nav*/
+    padding-top: 6vh; /*Agrega separación del borde del pie de página al texto*/
 }
+
+/* Setear color rojo para los links de esta clase */
+p a {
+    color: red; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Opcional: quitar la subrayado del enlace */
+  }
+

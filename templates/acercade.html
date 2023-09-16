@@ -8,9 +8,13 @@
     <link rel="shortcut icon" href="img/icono_centauro_1.ico" type="image/x-icon">
     <!-- RELACIONAR HTML CON SU ARCHIVO DE ESTILO -->
     <link rel="stylesheet" href="../css/acercade.css">
-
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <title>Acerca de nosotros</title>
 </head>
+
 <body>
     <header>
         <div class="header-linea">
@@ -20,65 +24,55 @@
         </div>   
         <nav class="header-linea">
             <!-- Menu de navegacion -->
-            <a href="../index.html"> Inicio </a>
-            <a href="acercade.html">| Acerca de nosotros </a>
-            <a href="competencia.html">| Competencias y eventos </a>
-            <a href="contacto.html">| Contactanos </a>
+            <a class="menu" href="../index.html"> Inicio </a>
+            <a class="menu" href="acercade.html">| Acerca de nosotros </a>
+            <a class="menu" href="competencia.html">| Competencias y eventos </a>
+            <a class="menu" href="contacto.html">| Contactanos </a>
        </nav>
+    
     </header>
+
     <main>
-    <!-- Contenido -->
-    <h1>acercade-</h1>
+    <h1>Arqueria Codo a Codo-acercade->Acerca de nosotros</h1>
     <section>
-        <!-- Bloque 1 -->
-        <div>
-            <h1>un div con 1 h1</h1>
+        <div class="contenedor-grid">
+            <img src="/img/logo_centauro_1.png" alt="logo_centauro_1">
+            <img src="/img/logo_centauro_2.png" alt="logo_centauro_2">
         </div>
-
-        <!-- Bloque 2 -->
-        <div>
-            <h1>otro div con 1 h1 y 2 div con 1 imagen c/u</h1>
-            <div>
-                <img src="/img/logo_centauro_1.png" alt="logo_centauro_1">
-            </div>
-            <div>
-                <img src="/img/logo_centauro_2.png" alt="logo_centauro_2">
-            </div>
-        </div>
-
     </section>
 
     <section>
-        
-        <article>
-            <hr>
-            <h1>ETIQUETA DE TIRO CON ARCO</h1>
+        <article class="article-acercade">
+            <h1>QUIENES SOMOS</h1>
+            <p>Somos parte de una familia de Tiro con Arco y una comunidad de Deportistas. Estamos aquí para divertirnos y compartir el amor por el Tiro con Arco.</p>
+        </article>
+
+        <article class="article-acercade">
+            <h1>ETIQUETA DEL TIRO CON ARCO</h1>
             <ul>
-                <li>Somos parte de una familia de Tiro con Arco y una comunidad de Deportistas. Estamos aquí para divertirnos y compartir el amor por el Tiro con Arco.</li>
                 <li>No dispares a distancias que estén más allá de tu capacidad, fallando y retrasando continuamente a otros.
-                <li>Compartir dianas cuando haya muchos arqueros activos.</li>
+                <li>Comparte dianas cuando haya muchos arqueros activos.</li>
                 <li>No toques el equipo de otro arquero sin permiso.</li>
                 <li>Nunca presumas de tu costoso equipo ni te burles del equipo de otras personas.</li>
                 <li>No hables con un arquero que prefiere permanecer en silencio mientras se concentra.</li>
                 <li>No hables en voz alta mientras otros disparan.</li>
-                <li>Apagar los móviles o ponerlos en silencio para no molestar a los demás arqueros durante el tiro.</li>
+                <li>Apagar los celulares o ponerlos en silencio para no molestar a los demás arqueros durante el tiro.</li>
                 <li>Ofrece asesoramiento sólo después de obtener permiso para hacerlo. "¿Puedo ayudar?"</li>
                 <li>No compares puntuaciones de forma grosera ni te burles de los demás.</li>
-                <li>Recoge tu basura y llévala contigo o tírala a un cubo de basura.</li>
                 <li>Se siempre educado y diviértete.</li>            
             </ul>
         </article>
-        <article>
-            <hr>
+
+        <article class="article-acercade">
             <h1>MEDIDAS DE SEGURIDAD</h1>
             <ul>
-                <li>El equipo dañado (arco y flecha) no debe utilizarse nunca. Por eso, antes de disparar, es necesario realizar una comprobación sistemática</li>
-                <li>No se debe soltar la cuerda sin flecha</li>
-                <li>El arco no debe apuntar a nadie bajo ninguna circunstancia</li>
-                <li>No tirar flechas hacia arriba</li>
-                <li>No se debe disparar hasta que todos estén de nuevo en la línea de tiro</li>
+                <li>Un equipo dañado (arco y/o flecha) no debe utilizarse nunca. Por eso, antes de disparar, es necesario realizar una comprobación sistemática.</li>
+                <li>No se debe soltar la cuerda sin flecha.</li>
+                <li>El arco no debe apuntar a nadie bajo ninguna circunstancia.</li>
+                <li>No tirar flechas hacia arriba.</li>
+                <li>No se debe tirar mientras haya alguien delante la línea de tiro.</li>
                 <li>Esperar en la línea de tiro mientras los otros tiradores están en pleno tiro y salir a recuperar las flechas sólo cuando el capitán de campo de la orden (Libre!).</li>
-                <li>No se debe correr al recuperar las flechas</li>
+                <li>No se debe correr al recuperar las flechas.</li>
             </ul>
         </article>
     </section>
@@ -87,7 +81,15 @@
     </main>
 
     <footer>
-        <h3 class="texto-pie">Arquería Codo a Codo, Algún lugar de Argentina  <a href="mailto://arqueria.codoacodo@algunmail.com">arqueria.codoacodo@algunmail.com</a><h3></h3>
+        
+        <div class="footer-text">
+            <p>Arquería Codo a Codo | Algún lugar de Argentina |</p>
+        </div>
+        
+        <div class="footer-text">
+            <p><a href="mailto://arqueria.codoacodo@algunmail.com">arqueria.codoacodo@algunmail.com</a></p>
+        </div>
+        
     </footer>
        
 </body>
