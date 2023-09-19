@@ -34,10 +34,10 @@ header{
 /* Estilo para el logo */
 /* Agregar  estilo: de ancho, alto, borde radios y sombra.*/
 .logo{
-    width: 5vw;  /*Ancho*/
+    width: 7vw;  /*Ancho*/
     height: auto;/*Altura*/
-    border-radius: 50% 50% 50% 50%;  /*Redondea dos vértices del logo(los extremos)*/
-    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgba(36, 37, 37, 0.8); /*Agrega sombra alrededor*/
+    /* border-radius: 50% 50% 50% 50%;  Redondea los vértices del logo(los extremos) */
+    /* box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgba(36, 37, 37, 0.8); Agrega sombra alrededor */
 }
 
 /* Menu */
@@ -60,12 +60,6 @@ agregar separación entre hipervínculos. */
   
 .centrado-vertical-horizontal{
     text-align: center; /* Centrar horizontalmente dentro del contenedor */
-}
-
-.contenedor-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
-    grid-gap: 5px; /* Espacio entre las imágenes  */
 }
 
 .article-acercade {
@@ -92,7 +86,7 @@ footer{
 
 /* Setear color rojo para los links de esta clase */
 p a {
-    color: red; /* Cambia el color del texto del enlace */
+    color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
     text-decoration: none; /* Opcional: quitar la subrayado del enlace */
   }
 
