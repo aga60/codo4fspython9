@@ -26,8 +26,8 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
 
 ## Recursos
 - Este repositorio: https://github.com/aga60/codo4fspython9
+- Hosting: https://aga60.github.io/codo4fspython9/
 - Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
-- Hosting:
 
 **(Nota: los links en GitHub se abren siempre en la misma pestaña del navegador, si quiere abrirlos en pestaña nueva tienen que usar Control+Click)**
 
