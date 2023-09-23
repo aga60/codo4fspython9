@@ -80,7 +80,7 @@ footer{
 
 /* Eliminar comportamiento en bloque entre divs del footer */
 .footer-text{
-    display: inline-block; /*Situa en linea el div y el nav*/
+    display: inline-block; /*Situa en linea las divs*/
     padding-top: 6vh; /*Agrega separación del borde del pie de página al texto*/
 }
 
@@ -88,5 +88,19 @@ footer{
 p a {
     color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
     text-decoration: none; /* Opcional: quitar la subrayado del enlace */
-  }
+}
 
+/* flex container en el footer */
+.footer-container{
+    display: inline-flex; /* Situa en linea las divs */
+    padding-top: 6vh; /* Agrega separación del borde del pie de página al texto */
+    flex-wrap: wrap; /* Permite desborde al achicarse la ventana */
+    row-gap: 1vh; /* Hueco entre filas al desbordar */
+    column-gap: .5vw; /* Hueco entre columnas (divs) */
+    justify-content: center;
+}
+
+.footer-item a {
+    color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Opcional: quitar la subrayado del enlace */
+}
