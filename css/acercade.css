@@ -93,12 +93,12 @@ p a {
 /* flex container en el footer */
 .footer-container{
     display: inline-flex; /* Situa en linea las divs */
-    padding-top: 6vh; /* Agrega separación del borde del pie de página al texto */
+    /* padding-top: 6vh; Agrega separación del borde del pie de página al texto */
     flex-wrap: wrap; /* Permite desborde al achicarse la ventana */
-    /* --> En github-pages los items que desbordan se van abajo del footer <-- */
-    row-gap: 1vh; /* Hueco entre filas al desbordar */
-    column-gap: .5vw; /* Hueco entre columnas (divs) */
+    /* row-gap: 1vh; /* Hueco entre filas al desbordar */
+    /* column-gap: .5vw; /* Hueco entre columnas (divs) */ 
     justify-content: center;
+    align-content: space-around; /* no esta funcionando */
 }
 
 .footer-item a {
