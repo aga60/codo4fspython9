@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Arquería, Tiro con arco y flecha, Archery">
-    <meta name="description" content="Arquería Codo a Codo es el club de arquería del grupo 9 FSP. ">
-    <link rel="shortcut icon" href="../img/icono_centauro_1.ico" type="image/x-icon">
-    <!-- RELACIONAR HTML CON SU ARCHIVO DE ESTILO -->
-    <link rel="stylesheet" href="../css/acercade.css">
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <title>Acerca de nosotros</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Arquería, Tiro con arco y flecha, Archery">
+        <meta name="description" content="Arquería Codo a Codo es el club de arquería del grupo 9 FSP. ">
+        <link rel="shortcut icon" href="../img/icono_centauro_1.ico" type="image/x-icon">
+        <!-- RELACIONAR HTML CON SU ARCHIVO DE ESTILO -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&&display=swap" rel="stylesheet">
+        <title>Nosotros</title>
 </head>
 
 <body>
     <header>
+        <nav>
+            <!-- <a class="logo" href="/">Arquería Codo a Codo</a> -->
+            <!-- <div class="header-linea"> -->
+            <div>   
+              <!-- Logo -->
+              <img class=logo src="../img/logo_centauro_1_svg_con_texto_invertido.svg" alt="logo_centauro_1_svg_con_texto">
+           </div>
 
-        <div class="header-linea">
-           <!-- Logo -->
-           <img class=logo src="../img/logo_centauro_1_svg_con_texto.svg" alt="logo_centauro_1_svg_con_texto">
-        </div>
-           
-        <nav class="header-linea">
-            <!-- Menu de navegacion -->
-            <a class="menu" href="../index.html"> Inicio </a>
-            <a class="menu" href="acercade.html">| Acerca de nosotros </a>
-            <a class="menu" href="competencia.html">| Competencias y eventos </a>
-            <a class="menu" href="contacto.html">| Contactanos </a>
+           <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+           </div>
+
+           <ul class="nav-list">
+              <!-- <li><a href="#">Inicio</a></li>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Competencias</a></li>
+              <li><a href="#">Contacto</a></li> -->
+              <li><a class="menu" href="../index.html">Inicio</a></li>
+              <li><a class="menu" href="acercade.html">Nosotros</a></li>
+              <li><a class="menu" href="competencia.html">Competencias</a></li>
+              <li><a class="menu" href="contacto.html">Contacto</a></li>
+           </ul>
         </nav>
-
     </header>
 
     <main>
         <!-- <h1>Arqueria Codo a Codo-acercade->Acerca de nosotros</h1> -->
-        <div class="contenedor-flex">
+        <!-- <div class="contenedor-flex">
             <div class="centrado-vertical-horizontal">
                 <h1>Arquería Codo a Codo-acercade.html->Acerca de nosotros</h1>
             </div>
-        </div>
+        </div> -->
 
-        <!-- <section> cambié section por div porque no tenía un <h >-->
+        <!-- <section> cambié section por div porque no tenía un <h>-->
         <div>
             <article class="article-acercade">
                 <h2>QUIENES SOMOS</h2>
@@ -83,23 +94,13 @@
     </main>
 
     <footer>
-        <!-- footer original -->
-        <!-- <div class="footer-text">
-            <p>Arquería Codo a Codo | Algún lugar de Argentina |</p>
-        </div>
-
-        <div class="footer-text">
-            <p><a href="mailto://arqueria.codoacodo@algunmail.com">arqueria.codoacodo@algunmail.com</a></p>
-        </div> -->
-
         <!-- footer con flex -->
         <div class="footer-container"> <!-- Flex container -->
-            <div class="footer-item item-1">Arquería Codo a Codo |</div> <!-- Flex items -->
-            <div class="footer-item item-2">Algún lugar de Argentina |</div>
-            <div class="footer-item item-3"><a href="mailto://arqueria.codoacodo@algunmail.com">arqueria.codoacodo@algunmail.com</a></div>
+           <div class="footer-item item-1">Arquería Codo a Codo</div> <!-- Flex items -->
+           <div class="footer-item item-2">Algún lugar de Argentina</div>
+           <div class="footer-item item-3"><a href="mailto://arqueria.codoacodo@algunmail.com">arqueria.codoacodo@algunmail.com</a></div>
         </div>
-                
-    </footer>
-       
+     </footer>
+     <!-- <script src="js/mobile-navbar.js"></script> -->   
 </body>
 </html>
