@@ -27,7 +27,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   /* font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif; */
-  background: rgba(35, 35, 46, 1);
+  /* background: rgba(35, 35, 46, 1); */
+  background-color: rgba(0, 0, 0, 1);
   height: 12vh;
 }
 
@@ -117,21 +118,19 @@ main {
 /* Pie de página: color de fondo, altura, tamaño de fuente,
 color de texto alineación de texto. */
 footer{
-  /* background-color: rgba(0,0,0,0.8); */
-  background-color: rgba(35, 35, 46, 1);
-  height: 15vh; /*Altura*/
-  text-align: center; /*Alinear texto*/
-  /* color: aliceblue; Color del texto */
-  color: rgba(240, 248, 255, 1); /*Color del texto*/
+  background-color: rgba(0, 0, 0, 1);
+  height: 12vh;
+  text-align: center;
+  color: rgba(240, 248, 255, 1);
 }
 
 /* Eliminar comportamiento en bloque entre divs del footer */
-.footer-text{
-  display: inline-block; /*Situa en linea las divs*/
-  padding-top: 6vh; /*Agrega separación del borde del pie de página al texto*/
-}
+/* .footer-text{
+  display: inline-block;
+  padding-top: 6vh;
+} */
 
-/* Setear color rojo para los links de esta clase */
+/* Setear color rojo para los links */
 p a {
   color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
   text-decoration: none; /* Opcional: quitar la subrayado del enlace */
@@ -140,12 +139,12 @@ p a {
 /* flex container en el footer */
 .footer-container{
   display: inline-flex; /* Situa en linea las divs */
-  padding-top: 6vh; Agrega separación del borde del pie de página al texto
+  padding-top: 3vh; /* Agrega separación del borde del pie de página al texto */
   flex-wrap: wrap; /* Permite desborde al achicarse la ventana */
-  /* row-gap: 1vh; /* Hueco entre filas al desbordar */
-  /* column-gap: .5vw; /* Hueco entre columnas (divs) */ 
+  row-gap: 1vh; /* Hueco entre filas al desbordar */
+  column-gap: 1vh; /* Hueco entre columnas (divs) */ 
   justify-content: center;
-  align-content: space-around; /* no esta funcionando */
+  /* align-content: space-around; /* no esta funcionando */
 }
 
 .footer-item {
@@ -154,5 +153,5 @@ p a {
 
 .footer-item a {
   color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
-  text-decoration: none; /* Opcional: quitar la subrayado del enlace */
+  text-decoration: none; /* Opcional: quitar el subrayado del enlace */
 }
