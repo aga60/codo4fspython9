@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, Montserrat, system-ui, -apple-system, Helvetica, sans-serif;
+    }
+  
+  a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    height: 10vh;
+    width: auto;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* background: rgba(35, 35, 46, 1); */
+    background-color: rgba(0, 0, 0, 1);
+    height: 12vh;
+  }
+  
+  main {
+    background: url("/img/target-aim-arrows-bow.jpg") no-repeat center center;
+    background-size: cover;
+    /* height: 92vh; */
+    height: 252vh;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: rgba(255, 255, 255, 1);
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+    }
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: rgba(35, 35, 46, 1);
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+  
+  /* Main */
+  /* 1er Título (h1) */
+  /* .contenedor-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+  } */
+  
+  /* .centrado-vertical-horizontal{
+    text-align: center; /* Centrar horizontalmente dentro del contenedor
+  } */
+  
+  .article-acercade {
+    border: 2px solid #000; /* Establece un borde sólido de 1 píxel de grosor y color negro */
+    border-radius: 15px 15px 15px 15px; /* Establece el radio de las esquinas */
+    padding: 10vh; /* Añade espacio interno para que el contenido no esté pegado al borde */
+    /* margin: 5vh; /* Añade espacio externo */
+    background-color: rgba(255, 255, 255, .9);
+    width: 45vw;
+  }
+  
+  /* Pie de página: color de fondo, altura, tamaño de fuente,
+  color de texto alineación de texto. */
+  footer{
+    background-color: rgba(0, 0, 0, 1);
+    height: 12vh;
+    text-align: center;
+    color: rgba(240, 248, 255, 1);
+  }
+  
+  /* Eliminar comportamiento en bloque entre divs del footer */
+  /* .footer-text{
+    display: inline-block;
+    padding-top: 6vh;
+  } */
+  
+  /* Setear color rojo para los links */
+  p a {
+    color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Opcional: quitar la subrayado del enlace */
+  }
+  
+  /* flex container en el footer */
+  .footer-container{
+    display: inline-flex; /* Situa en linea las divs */
+    padding-top: 3vh; /* Agrega separación del borde del pie de página al texto */
+    flex-wrap: wrap; /* Permite desborde al achicarse la ventana */
+    row-gap: 1vh; /* Hueco entre filas al desbordar */
+    column-gap: 1vw; /* Hueco entre columnas (divs) */ 
+    justify-content: center;
+    /* align-content: space-around; /* no esta funcionando */
+  }
+  
+  /* .footer-item {
+    padding-left: 1vw;
+  } */
+  
+  .footer-item a {
+    color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Opcional: quitar el subrayado del enlace */
+  }
+  
