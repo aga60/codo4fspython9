@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="keywords" content="Arquería, Tiro con arco y flecha, Archery">
-   <meta name="description" content="Arquería Codo a Codo es el club de arquería del grupo 9 FSP. ">
- <link rel="shortcut icon" href="../img/icono_centauro_1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Arquería, Tiro con arco y flecha, Archery">
+    <meta name="description" content="Arquería Codo a Codo es el club de arquería del grupo 9 FSP. ">
+    <link rel="shortcut icon" href="../img/icono_centauro_1.ico" type="image/x-icon">
     <!-- RELACIONAR HTML CON SU ARCHIVO DE ESTILO -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- <link rel="stylesheet" href="../css/contacto.css"> -->
@@ -37,10 +38,6 @@
             </div>
 
             <ul class="nav-list">
-                <!-- <li><a href="#">Inicio</a></li>
-              <li><a href="#">Nosotros</a></li>
-              <li><a href="#">Competencias</a></li>
-              <li><a href="#">Contacto</a></li> -->
                 <li><a class="menu" href="../index.html">Inicio</a></li>
                 <li><a class="menu" href="acercade.html">Nosotros</a></li>
                 <li><a class="menu" href="competencia.html">Competencias</a></li>
@@ -55,35 +52,36 @@
             class="container text-center p-4 bg-light text-dark bg-opacity-50 border border-dark border border-3 rounded-4">
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
-                    <form action="">
+                    <form action="https://formspree.io/f/moqoywby" method="post" id="formulario" onsubmit="return validarFormulario()">
 
                         <div class="row mb-3">
                             <div class="col">
-                                <label for="formGroupExampleInput3" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" placeholder="Ej: Luis">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre"
+                                 placeholder="Ej: Luis">
                             </div>
                             <div class="col">
-                                <label for="formGroupExampleInput4" class="form-label">Apellido</label>
-                                <input type="text" class="form-control" placeholder="Ej: Gonzalez" aria-label="Last name">
+                                <label for="apellido" class="form-label">Apellido</label>
+                                <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ej: Gonzalez">
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                            <label for="mail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="mail" name="mail"
                                 placeholder="Ej: name@example.com">
                         </div>
                         <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label">Asunto</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                            <label for="asunto" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="asunto" name="asunto"
                                 placeholder="Ej: Inscripciones">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Ej: ¿que dias y horarios hay clases para niños?"></textarea>
+                            <label for="comentario" class="form-label">Comentario</label>
+                            <textarea class="form-control" id="comentario" name="comentario" rows="8" placeholder="Ej: ¿que dias y horarios hay clases para niños?"></textarea>
                         </div>
 
                         <div class="d-grid mb-3">
-                            <button class="btn btn-primary" type="button">Enviar</button>
+                            <input class="btn btn-primary" type="submit" value="Enviar">
 
                         </div>
                     </form>
@@ -148,7 +146,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-</body>  
-  
-   
+    <script src="../js/validacion.js"></script>    
+</body>
+
 </html>
