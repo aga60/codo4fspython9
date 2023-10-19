@@ -62,8 +62,13 @@
     transition: 0.3s;
   }
   
-  @media (max-width: 999px) {
-    body {
+  @media (max-width: 900px) {
+    a {
+      /* hasta 900 px los links color naranja */
+      color: rgba(255, 153, 0, 1);
+
+    }
+        body {
       overflow-x: hidden;
     }
     .nav-list {
@@ -85,6 +90,20 @@
     }
     .mobile-menu {
       display: block;
+    }
+  }
+
+  @media (max-width: 750px) {
+    a {
+      /* hasta 700 px los links color amarillo */
+    color: rgba(255, 208, 0, 1);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    a {
+      /* hasta 600 px los links color blanco */
+      color: rgba(255, 255, 255, 1);
     }
   }
   
@@ -177,4 +196,4 @@
     color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
     text-decoration: none; /* Opcional: quitar el subrayado del enlace */
   }
-  
+   */
