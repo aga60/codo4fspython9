@@ -64,8 +64,8 @@ main {
 
 @media (max-width: 900px) {
   a {
-    /* hasta 900 px los links color naranja */
-    color: rgba(255, 153, 0, 1);
+    /* hasta 900 px los links color blanco */
+    color: rgba(255, 255, 255, 1);
 
   }
       body {
@@ -102,8 +102,8 @@ main {
 
 @media (max-width: 600px) {
   a {
-    /* hasta 600 px los links color blanco */
-    color: rgba(255, 255, 255, 1);
+    /* hasta 600 px los links color naranja */
+    color: rgba(255, 153, 0, 1);
   }
 }
 

@@ -1,0 +1,185 @@
+/* header */
+/* -----------------LETRA---- */
+/*
+@font-face {
+    font-family:"Itim";
+    src: url('../fonts/Itim/Itim-Regular.ttf');
+}
+*/
+
+/*
+*{
+    margin: 0%; /*Elimina todo margen que trae por defecto *
+    padding: 0%; /*Elimina todo relleno que trae por defecto *
+    font-family: "Itim";
+}
+*/
+
+/* Estilo para el logo */
+/* Agregar  estilo: 
+de ancho, alto, borde radios y sombra.
+color sombra: rgba(83,175,236,0.8) */
+/*
+.logo{
+    width: 5vw;  /*Ancho*
+    height: auto; /*Altura*
+    border-radius: 0% 50% 0% 50%;  /*Redondea dos vértices del logo(los extremos)*
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgba(83,175,236,0.8); /*Agrega sombra alrededor*
+}
+*/
+
+/*
+header{
+    background: linear-gradient(to left, rgba(52,152,219,0.2),rgba(231,76,60,0.4)); /*Degradado de colores*
+    height: 15vh; /*Altura*
+    font-size: 2vw; /*Tamaño de texto*
+    text-align: end;  /*Alinear texto*
+    border-radius: 0% 0% 50% 0%; /*Redondea un vértice del logo(un extremo)*
+    
+    /* Agregar las propiedades:display,
+    justify-content y align-items *
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+*/
+
+/* Menu */
+/* En los hipervínculos del nav eliminar la decoración del texto, color,
+agregar separación entre hipervínculos. */
+/*
+.menu{
+    text-decoration: none; /*Elimina subrayado*
+    color:brown;  /*Color texto*
+    padding-right: 1.5vw; /*Separación entre el texto del menu*
+    font-size: 2vw;  /*Tamaño de fuente*
+}
+*/
+
+/* Asignar a selector de clase(hipervinculo) las 
+propiedades: font-size,color,text-decoration */
+/*
+.hipervinculo{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color:black;
+}
+*/
+
+/* Card para las imagenes */
+.card{
+    /* background: radial-gradient(#2F527A, #0B223C); */
+    background: rgba(255,255,255,1);
+    width: 20vw;
+    height: 75vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+    border-radius: 2vh;
+    border: 1px solid #fff; /* Establece un borde sólido de 1 píxel de grosor y color blanco */
+
+    /* Asignar las propiedades: display, flex-direction
+    align-content*/
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;   
+}
+
+.card > img{
+    width: 20vw;
+    height: auto;
+    border-radius: 2vh 2vh 0vh 0vh;
+}
+
+.card:hover{
+    /* background: rgba(245, 245, 245, 0.72); */
+    background: rgba(255,255,255,.99);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /*Sombra al pasar el cursor por cada caja*/
+    transform: rotateX(10deg) rotateY(10deg);
+}
+
+
+/* GRID PARA Fotos 
+Asignar las propiedades: display,
+grid-template-columns,grid-gap,
+justify-items, margin*/
+.fotos{
+    display: grid;
+    /* repeat(auto-fill,minmax(25vw,1fr)) */
+    grid-template-columns:repeat(4,minmax(25vw,1fr)) ;
+    gap:1vh;
+    justify-items:center;
+    /* margin: 5vw; */
+}
+
+/* Asignar las propiedades:padding 
+y font-size a la clase texto que 
+representa el párrafo de la s2*/
+.texto{
+    font-size: 2vw;
+    padding: 10vw;
+    text-align: justify;
+}
+
+/* Footer Asignar las propiedades:
+display: flex;
+justify-content, align-items,
+column-gap, background-color;
+height */
+/*
+footer{
+   display: flex;
+   justify-content:space-around;
+   background-color: #2F527A;
+   height: 15vh;
+   align-items: center;
+
+}
+*/
+
+/* Puntos de cortes */
+@media screen and (max-width:600px){
+    .s1{
+       grid-template-columns:repeat(1,minmax(25vw,1fr))
+
+    }
+
+    .card{
+       width:55vw;
+       height:45vh;
+        
+    }
+
+    .card > img{
+        width: 55vw;
+        height: auto;
+    }
+    .texto{
+        font-size:4vw;
+    }
+
+    header{
+        flex-direction:column;
+        height:30vh;
+
+    }
+
+    .menu{
+       font-size:4vw;
+    }
+
+    .logo{
+        width:15vw;
+       
+        
+    }
+
+    nav{
+        /* nav como columna
+        display, flex-direction */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hipervinculo{
+        font-size:3vw;
+    }
+}
