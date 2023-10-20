@@ -1,199 +1,138 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Lato, Montserrat, system-ui, -apple-system, Helvetica, sans-serif;
-    }
-  
-  a {
-    color: rgba(255, 255, 255, 1);
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  a:hover {
-    opacity: 0.7;
-  }
-  
-  .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    height: 10vh;
-    width: auto;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-    /* background: rgba(35, 35, 46, 1); */
-    background-color: rgba(0, 0, 0, 1);
-    height: 12vh;
-  }
-  
-  main {
-    background: url("/img/target-aim-arrows-bow.jpg") no-repeat center center;
-    background-size: cover;
-    /* height: 92vh; */
-    height: 252vh;
-  }
-  
-  .nav-list {
+/* Estilos para el fondo */
+body {
+    background-color: #e0edeeef; /* Cambia el color de fondo a naranja */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo del documento */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo del documento */
+}
+
+/* Estilos para el encabezado principal */
+.EncabezadoPrincipal {
+    color: rgb(255, 166, 0); /* Establece el color del texto a naranja */
+    font-size: 30px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de fuente en negrita */
+    text-align: center; /* Alineación de texto al centro */
+    margin: 20px 0; /* Margen superior e inferior */
+    padding: 10px; /* Relleno interior */
+    background-color: #333; /* Color de fondo */
+    border: 2px solid #555; /* Borde de 2 píxeles sólido de color gris oscuro */
+    border-radius: 10px; /* Borde redondeado */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+/* Estilos para la navegación */
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+}
+
+/* Estilo para los enlaces al hacer hover (opcional) */
+a:hover {
+    color: #FFA600; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse sobre el enlace */
+    transition: color 0.3s ease-in-out; /* Agrega una transición suave para el cambio de color */
+}
+
+/* Estilos para la barra de navegación */
+.Indice ul {
+    background-color: #333; /* Cambia el color de fondo de la barra de navegación */
+    text-align: center; /* Centra horizontalmente los enlaces */
+    padding: 10px 0; /* Agrega un relleno superior e inferior */
     list-style: none;
-    display: flex;
-  }
-  
-  .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-  }
-  
-  .mobile-menu {
-    display: none;
-    cursor: pointer;
-  }
-  
-  .mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: rgba(255, 255, 255, 1);
-    margin: 8px;
-    transition: 0.3s;
-  }
-  
-  @media (max-width: 900px) {
-    a {
-      /* hasta 900 px los links color naranja */
-      color: rgba(255, 153, 0, 1);
+    padding: 0;
+    display: flex; /* Coloca los elementos de navegación en línea */
+    justify-content: center; /* Centra horizontalmente los elementos de navegación */
+}
 
-    }
-        body {
-      overflow-x: hidden;
-    }
-    .nav-list {
-      position: absolute;
-      top: 8vh;
-      right: 0;
-      width: 50vw;
-      height: 92vh;
-      background: rgba(35, 35, 46, 1);
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
-    }
-    .nav-list li {
-      margin-left: 0;
-      opacity: 0;
-    }
-    .mobile-menu {
-      display: block;
-    }
-  }
+/* Estilos para los elementos de navegación en la barra */
+.Navegacion {
+    margin-right: 20px; /* Espacio entre elementos de navegación */
+}
 
-  @media (max-width: 750px) {
-    a {
-      /* hasta 700 px los links color amarillo */
-    color: rgba(255, 208, 0, 1);
-    }
-  }
-  
-  @media (max-width: 600px) {
-    a {
-      /* hasta 600 px los links color blanco */
-      color: rgba(255, 255, 255, 1);
-    }
-  }
-  
-  .nav-list.active {
-    transform: translateX(0);
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-  }
-  
-  .mobile-menu.active .line2 {
-    opacity: 0;
-  }
-  
-  .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
-  }
-  
-  /* Main */
-  /* 1er Título (h1) */
-  /* .contenedor-flex{
+/* Estilos para los enlaces dentro de la barra de navegación */
+.Indice a {
+    color: #fff; /* Cambia el color del texto de los enlaces a blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+
+/* Estilos para los enlaces cuando se pasa el mouse sobre ellos */
+.Indice a:hover {
+    color: #FFA600; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+    text-decoration: underline; /* Agrega subrayado al pasar el mouse sobre el enlace */
+    transition: color 0.3s ease-in-out; /* Agrega una transición suave para el cambio de color */
+}
+
+/* Estilos para los párrafos */
+.parrafo1 {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: #333;
+}
+
+/* Estilos para el título principal */
+.TituloPrincipal {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    letter-spacing: 7.5px;
+    line-height: 1;
+    font-size: 70px;
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 10vh;
-  } */
-  
-  /* .centrado-vertical-horizontal{
-    text-align: center; /* Centrar horizontalmente dentro del contenedor
-  } */
-  
-  .article-acercade {
-    border: 2px solid #000; /* Establece un borde sólido de 1 píxel de grosor y color negro */
-    border-radius: 15px 15px 15px 15px; /* Establece el radio de las esquinas */
-    padding: 10vh; /* Añade espacio interno para que el contenido no esté pegado al borde */
-    /* margin: 5vh; /* Añade espacio externo */
-    background-color: rgba(255, 255, 255, .9);
-    width: 45vw;
-  }
-  
-  /* Pie de página: color de fondo, altura, tamaño de fuente,
-  color de texto alineación de texto. */
-  footer{
-    background-color: rgba(0, 0, 0, 1);
-    height: 12vh;
+    justify-content: center; /* Añade esta línea para centrar vertical y horizontalmente */
+    height: 50vh; /* Cambia la altura a tu preferencia */
+    margin: 0; /* Elimina el margen superior e inferior */
+}
+
+/* Estilos para los subtitulos principales */
+.SubtituloPrincipal {
+    font-family: Arial, sans-serif; /* Cambia el estilo de letra a Arial o la fuente que prefieras */
+    letter-spacing: 1px; /* Aumenta ligeramente el espaciado entre las letras */
+    line-height: 1.3; /* Aumenta el espaciado entre las líneas del párrafo */
+    font-size: 40px; /* Aumenta el tamaño de la fuente a 40 píxeles o el valor que desees */
+    font-weight: bold; /* Hace que el texto sea negrita */
     text-align: center;
-    color: rgba(240, 248, 255, 1);
-  }
-  
-  /* Eliminar comportamiento en bloque entre divs del footer */
-  /* .footer-text{
-    display: inline-block;
-    padding-top: 6vh;
-  } */
-  
-  /* Setear color rojo para los links */
-  p a {
-    color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
-    text-decoration: none; /* Opcional: quitar la subrayado del enlace */
-  }
-  
-  /* flex container en el footer */
-  .footer-container{
-    display: inline-flex; /* Situa en linea las divs */
-    padding-top: 3vh; /* Agrega separación del borde del pie de página al texto */
-    flex-wrap: wrap; /* Permite desborde al achicarse la ventana */
-    row-gap: 1vh; /* Hueco entre filas al desbordar */
-    column-gap: 1vw; /* Hueco entre columnas (divs) */ 
-    justify-content: center;
-    /* align-content: space-around; /* no esta funcionando */
-  }
-  
-  /* .footer-item {
-    padding-left: 1vw;
-  } */
-  
-  .footer-item a {
-    color: rgba(199, 0, 57, 0.8); /* Cambia el color del texto del enlace */
-    text-decoration: none; /* Opcional: quitar el subrayado del enlace */
-  }
-   */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Añade esta línea para centrar vertical y horizontalmente */
+    color: #333; /* Cambia el color del texto a un tono de gris oscuro (#333) */
+    margin: 0; /* Elimina el margen superior e inferior */
+}
+
+/* Estilos para las imágenes grandes */
+/* Estilos para el enlace */
+.link {
+    text-decoration: none; /* Elimina el subrayado por defecto del enlace */
+    color: #007BFF; /* Cambia el color del texto del enlace */
+    font-weight: bold; /* Hace que el texto del enlace sea negrita */
+    transition: color 0.3s ease-in-out; /* Agrega una transición suave para el cambio de color al pasar el mouse */
+}
+
+/* Estilos para el enlace cuando se pasa el mouse sobre él */
+.link a:hover {
+    color: #0056b3; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+}
+.imagen-header {
+    width: 5px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-right: 20px; /* Agrega un margen derecho para separar la imagen del encabezado */
+}
+.parrafo-container {
+    background-color: #EFEFEF; /* Color de fondo aplicado al contenedor */
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+.TodosLosSubtitulos {
+    font-family: Arial, sans-serif; /* Cambia el estilo de letra a Arial o la fuente que prefieras */
+    font-size: 30px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de fuente en negrita */
+    color: #333; /* Color del texto */
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 10px;
+}
