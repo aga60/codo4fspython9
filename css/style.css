@@ -134,28 +134,6 @@ main {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
-/* Main */
-/* 1er Título (h1) */
-/* .contenedor-flex{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10vh;
-} */
-
-/* .centrado-vertical-horizontal{
-  text-align: center; /* Centrar horizontalmente dentro del contenedor
-} */
-
-.article-acercade {
-  border: 2px solid #000; /* Establece un borde sólido de 1 píxel de grosor y color negro */
-  border-radius: 15px 15px 15px 15px; /* Establece el radio de las esquinas */
-  padding: 10vh; /* Añade espacio interno para que el contenido no esté pegado al borde */
-  /* margin: 5vh; /* Añade espacio externo */
-  background-color: rgba(255, 255, 255, .9);
-  width: 45vw;
-}
-
 /* Pie de página: color de fondo, altura, tamaño de fuente,
 color de texto alineación de texto. */
 footer{
