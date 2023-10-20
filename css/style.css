@@ -35,8 +35,8 @@ nav {
 main {
   background: url("/img/target-aim-arrows-bow.jpg") no-repeat center center;
   background-size: cover;
-  /* height: 92vh; */
-  height: 252vh;
+  /* height: 252vh; */
+  height: 232vh;
 }
 
 .nav-list {
