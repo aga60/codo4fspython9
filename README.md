@@ -8,6 +8,7 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
 - Agunin, Aldo
 - Cestoni, Dora Elizabeth
 - Klepache, Raquel
+- Pozo Vallejos, Oriel
 - Robles, Ezequiel
 
 ## Etapas
