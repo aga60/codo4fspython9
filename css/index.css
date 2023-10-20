@@ -29,7 +29,6 @@
     transform: rotateX(10deg) rotateY(10deg);
 }
 
-
 /* GRID PARA Fotos */
 .fotos{
     display: grid;
@@ -40,51 +39,66 @@
     /* margin: 5vw; */
 }
 
-/* Puntos de cortes */
-@media screen and (max-width:600px){
-    .s1{
-       grid-template-columns:repeat(1,minmax(25vw,1fr))
+/* Puntos de corte */
+@media screen and (max-width:900px){
+    main {
+        height: 240vh;
+      }
+    
+    .fotos{
+       grid-template-columns:repeat(2,minmax(25vw,1fr))
+    }
+.fotos{
+       grid-template-columns:repeat(3,minmax(25vw,1fr))
+    }
 
+    .card{
+       width:30vw;
+       height:75vh;
+    }
+
+    .card > img{
+        width: 30vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:750px){
+    main {
+        height: 350vh;
+      }
+    
+    .fotos{
+       grid-template-columns:repeat(2,minmax(25vw,1fr))
+    }
+
+    .card{
+       width:40vw;
+       height:68vh;
+    }
+
+    .card > img{
+        width: 40vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px){
+    main {
+        height: 690vh;
+      }
+      
+    .fotos{
+       grid-template-columns:repeat(1,minmax(25vw,1fr))
     }
 
     .card{
        width:55vw;
-       height:45vh;
-        
+       height:75vh;
     }
 
     .card > img{
         width: 55vw;
         height: auto;
-    }
-    .texto{
-        font-size:4vw;
-    }
-
-    header{
-        flex-direction:column;
-        height:30vh;
-
-    }
-
-    .menu{
-       font-size:4vw;
-    }
-
-    .logo{
-        width:15vw;
-       
-        
-    }
-
-    nav{
-        /* nav como columna
-        display, flex-direction */
-        display: flex;
-        flex-direction: column;
-    }
-
-    .hipervinculo{
-        font-size:3vw;
     }
 }
