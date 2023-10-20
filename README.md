@@ -2,8 +2,7 @@
 Repositorio para el proyecto del curso Codo a Codo 4-Full Stack Python-Grupo 9
 
 ## Presentación del Proyecto
-El proyecto consiste en el diseño e implementación del sitio web para un club de arquería (tiro con arco y flecha).
-- Documentación Preliminar: [https://github.com/aga60/codo4fspython9/Documentacion_Preliminar_Proyecto_Web_ARQUERIA_CODO_A_CODO.pdf](https://github.com/aga60/codo4fspython9/blob/05e62943725f936efe59f3bb1d9926bda49e42a7/Documentacion_Preliminar_Proyecto_Web_ARQUERIA_CODO_A_CODO.pdf)
+El proyecto consiste en el diseño e implementación del sitio web para un club de arquería (tiro con arco y flecha) [https://github.com/aga60/codo4fspython9/Documentacion_Preliminar_Proyecto_Web_ARQUERIA_CODO_A_CODO.pdf](https://github.com/aga60/codo4fspython9/blob/05e62943725f936efe59f3bb1d9926bda49e42a7/Documentacion_Preliminar_Proyecto_Web_ARQUERIA_CODO_A_CODO.pdf)
 
 ## Integrantes del Grupo 9
 - Agunin, Aldo
