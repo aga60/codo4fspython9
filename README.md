@@ -23,9 +23,9 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
 - Convertidor de imagenes .jpg a .ico: CONVERTICO https://convertico.com/es/jpg-a-ico/
 - Para probar formularios: Formspree https://formspree.io/
 - Para validar código: https://validator.w3.org
-- 
 
 ## Recursos
+- Documentación Preliminar
 - Este repositorio: https://github.com/aga60/codo4fspython9
 - Hosting: https://main--arqueria-codo-a-codo.netlify.app/
 - Hosting (alternativo): https://aga60.github.io/codo4fspython9/
