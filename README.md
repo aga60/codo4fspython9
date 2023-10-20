@@ -17,15 +17,8 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
 - Proyecto final
   - Entrega: Clase 35 a 37- a partir del 4 de diciembre
 
-## Herramientas
-- Editor de código: Visual Studio Code https://code.visualstudio.com/
-- Extensiones: open in browser, Live Server
-- Convertidor de imagenes .jpg a .ico: CONVERTICO https://convertico.com/es/jpg-a-ico/
-- Para probar formularios: Formspree https://formspree.io/
-- Para validar código: https://validator.w3.org
-
 ## Recursos
-- Documentación Preliminar: Documentacion_Preliminar_Proyecto_Web_ARQUERIA_CODO_A_CODO.pdf
+- Documentación Preliminar: https://github.com/aga60/codo4fspython9/Documentacion_Preliminar_Proyecto_Web_ARQUERIA_CODO_A_CODO.pdf
 - Este repositorio: https://github.com/aga60/codo4fspython9
 - Hosting: https://main--arqueria-codo-a-codo.netlify.app/
 - Hosting (alternativo): https://aga60.github.io/codo4fspython9/
@@ -41,4 +34,10 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
   - img: imagenes
   - media: audio / video
   - templates: archivos html (excepto index.html)
-    
+
+## Herramientas
+- Editor de código: Visual Studio Code https://code.visualstudio.com/
+- Extensiones: open in browser, Live Server
+- Convertidor de imagenes .jpg a .ico: CONVERTICO https://convertico.com/es/jpg-a-ico/
+- Para probar formularios: Formspree https://formspree.io/
+- Para validar código: https://validator.w3.org
