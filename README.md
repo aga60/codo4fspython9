@@ -25,7 +25,7 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
 - Para validar código: https://validator.w3.org
 
 ## Recursos
-- Documentación Preliminar
+- Documentación Preliminar: Documentacion_Preliminar_Proyecto_Web_ARQUERIA_CODO_A_CODO.pdf
 - Este repositorio: https://github.com/aga60/codo4fspython9
 - Hosting: https://main--arqueria-codo-a-codo.netlify.app/
 - Hosting (alternativo): https://aga60.github.io/codo4fspython9/
