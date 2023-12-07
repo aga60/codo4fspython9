@@ -18,7 +18,8 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
   - Entrega: Clase 35 a 37- a partir del 4 de diciembre
 
 ## Recursos
-- Este repositorio: https://github.com/aga60/codo4fspython9
+- Este repositorio (frontend): https://github.com/aga60/codo4fspython9
+- Repositorio para el backend: https://github.com/aga60/codo4fspython9-backend
 - Hosting: https://arqueria-codo-a-codo.netlify.app/
 - Hosting (preproducción): https://main--arqueria-codo-a-codo.netlify.app/
 - Administración del proyecto (Kanban): https://trello.com/b/eTaGudRK/tpo-desarrollo-web
