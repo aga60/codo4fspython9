@@ -10,15 +10,15 @@
     <!-- RELACIONAR HTML CON SU ARCHIVO DE ESTILO -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/tienda.css">
+    <link rel="stylesheet" href="../css/administrador.css">
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> -->
     <!-- ICONS -->
     <script src="https://kit.fontawesome.com/f7a9e85e7b.js" crossorigin="anonymous"></script>
 
-    <title>Tienda</title>
+    <title>Administrador</title>
 </head>
 
 <body>
@@ -49,14 +49,22 @@
         </nav>
     </header>
 
-    <main>       
+    <main>
+
         <section class="container">
             <div id="app" >
 
-                
-                
+                <!-- Botón Nuevo -->
+                <a class="nuevo" href="/templates/ingresar_producto.html">Nuevo</a>
 
-                    <section>
+                <section v-if="error">Lo sentimos se produjo un error</section>
+                <section v-else>
+                    <section v-if="cargando">
+                        <p>Cargando .....</p>
+
+                    </section>
+
+                    <section v-else>
                         
                         <div >
                             <table class="tabla">
@@ -67,7 +75,8 @@
                                         <th>Precio</th>
                                         <th>Stock</th>
                                         <th>Imagen</th>
-                                        
+                                        <th>Acciones</th>
+                                        <th>Acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -80,8 +89,12 @@
                                         <td>
                                             <img :src="producto.imagen" alt="">
                                         </td>
-                                        
-                                        
+                                        <td>
+                                            <button type="button"  v-on:click="eliminar(producto.id)">Eliminar</button>
+                                        </td>
+                                        <td>
+                                            <a class="boton" :href="'editar_producto.html?id='+ producto.id+'&nombre=' +producto.nombre+ '&precio='+producto.precio+'&stock='+producto.stock +  '&imagen='+producto.imagen">Editar</a>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -91,7 +104,9 @@
 
             </div>
         </section>
+
     </main>
+
     <footer>
         <!-- footer con flex -->
         <div class="footer-container"> <!-- Flex container -->
@@ -107,9 +122,9 @@
             </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="../js/mobile-navbar.js"></script>
-    <script src="../js/tienda.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <script src="../js/tabla_productos.js"></script>
 </body>
 

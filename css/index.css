@@ -1,10 +1,10 @@
-
 /* Card para las imagenes */
 .card{
     /* background: radial-gradient(#2F527A, #0B223C); */
     background: rgba(255,255,255,1);
     width: 20vw;
-    height: 75vh;
+    height: auto;
+    /*height: 75vh;*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
     border-radius: 2vh;
     border: 1px solid #fff; /* Establece un borde sólido de 1 píxel de grosor y color blanco */
@@ -54,7 +54,8 @@
 
     .card{
        width:30vw;
-       height:75vh;
+       height: auto;
+       /* height:75vh; */
     }
 
     .card > img{
@@ -74,7 +75,8 @@
 
     .card{
        width:40vw;
-       height:68vh;
+       height: auto;
+       /* height:68vh; */
     }
 
     .card > img{
@@ -94,7 +96,8 @@
 
     .card{
        width:55vw;
-       height:75vh;
+       height: auto;
+       /* height:75vh; */
     }
 
     .card > img{
