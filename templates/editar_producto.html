@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Arquería, Tiro con arco y flecha, Archery">
+    <meta name="description" content="Arquería Codo a Codo es el club de arquería del grupo 9 FSP. ">
+    <link rel="shortcut icon" href="../img/icono_centauro_1.ico" type="image/x-icon">
+    <!-- RELACIONAR HTML CON SU ARCHIVO DE ESTILO -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+    
+    <link rel="stylesheet" href="../css/ingresar_producto.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/f7a9e85e7b.js" crossorigin="anonymous"></script>
+
+    <title>Modificando</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- <a class="logo" href="/">Arquería Codo a Codo</a> -->
+            <!-- <div class="header-linea"> -->
+            <div>
+                <!-- Logo -->
+                <img class=logo src="../img/logo_centauro_1_svg_con_texto_invertido.svg"
+                    alt="logo_centauro_1_svg_con_texto">
+            </div>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a class="menu" href="../index.html">Inicio</a></li>
+                <li><a class="menu" href="acercade.html">Nosotros</a></li>
+                <li><a class="menu" href="competencia.html">Competencias</a></li>
+                <li><a class="menu" href="tienda.html">Tienda</a></li>
+                <li><a class="menu" href="contacto.html">Contacto</a></li>
+                <li><a class="menu" href="tabla_productos.html">Administrador</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <div class="container-form">
+                <form>
+                   
+                    <div>
+                        <label for="id">ID</label>
+                        <input type="number" name="id" id="id" disabled>
+                    </div>
+            
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+
+                    <div class="entrada">
+                        <label for="precio">Precio:</label>
+                        <input type="number" name="precio" id="precio">
+                    </div>
+
+                    <div class="entrada">
+                        <label for="stock">Stock:</label>
+                        <input type="number" name="stock" id="stock">
+                    </div>
+
+                    <div class="entrada">
+                        <label for="imagen">Imagen:</label>
+                        <input type="text" name="imagen" id="imagen">
+                    </div>
+
+                    
+                    <button class="modificar" type="button" onclick="modificar()">Modificar</button>
+                </form>
+          
+          
+              </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- footer con flex -->
+        <div class="footer-container"> <!-- Flex container -->
+            <div class="footer-item item-1">Arquería Codo a Codo</div> <!-- Flex items -->
+
+            <div class="footer-item item-2">
+                <i class="fa-solid fa-location-dot"></i> Algún lugar
+            </div>
+
+            <div class="footer-item item-3">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto://arqueria.codoacodo@algunmail.com"> arqueria.codoacodo@algunmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/mobile-navbar.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="../js/ingresar_producto.js"></script>
+    <script src="../js/tabla_productos.js"></script>
+    <script src="../js/editar_producto.js"></script>
+    
+    <script src="../js/datos_editar.js"></script>
+</body>
+
+</html>
