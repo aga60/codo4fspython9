@@ -74,13 +74,13 @@
     }
 
     .card{
-       width:40vw;
+       width:30vw;
        height: auto;
        /* height:68vh; */
     }
 
     .card > img{
-        width: 40vw;
+        width: 30vw;
         height: auto;
     }
 }
@@ -95,13 +95,13 @@
     }
 
     .card{
-       width:55vw;
+       width:30vw;
        height: auto;
        /* height:75vh; */
     }
 
     .card > img{
-        width: 55vw;
+        width: 30vw;
         height: auto;
     }
 }
