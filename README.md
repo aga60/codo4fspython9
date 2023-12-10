@@ -9,12 +9,12 @@ El proyecto consiste en el diseño e implementación del sitio web para un club 
 - Cestoni, Dora Elizabeth
 - Klepache, Raquel
 - Pozo Vallejos, Oriel
-- Robles, Ezequiel (solo el TPO)
+- Robles, Ezequiel
 
 ## Etapas
 - Proyecto de medio término (TPO Desarrollo Web - HTML CSS JS)
   - Entrega: Clase 22-viernes 20 de octubre
-- Proyecto final (TFI = TPO + CRUD con Python y MySQL)
+- Proyecto final
   - Entrega: Clase 35 a 37- a partir del 4 de diciembre
 
 ## Recursos

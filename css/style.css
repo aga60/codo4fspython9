@@ -33,7 +33,7 @@ nav {
 }
 
 main {
-  background: url("/img/target-aim-arrows-bow.jpg") no-repeat center center;
+  background: url("../img/target-aim-arrows-bow.jpg") no-repeat center center;
   background-size: cover;
   /* height: 252vh; */
   height: 232vh;
