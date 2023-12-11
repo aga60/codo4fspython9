@@ -52,7 +52,7 @@ td:hover{
 
 a:hover{
     background-color: #f2f2f2;
-    color:#001F3F
+    color:rgb(27, 80, 255)
 }
 
 .menu{
@@ -103,7 +103,7 @@ button{
 .nuevo{
     color: #f2f2f2;
     margin-right: 2vh;
-    background-color: #001F3F50; /* Color de fondo */
+    background-color: hsla(221, 94%, 50%, 0.314); /* Color de fondo */
     color: white; /* Color del texto */
     padding: 0.5vw 3vh; /* Relleno interno */
     border: none; /* Quita el borde */
