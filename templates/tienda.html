@@ -51,11 +51,14 @@
     </header>
 
     <main>       
-        <section class="container">
-            <div id="app" >
+        <!-- <div class="tienda-banner">
+            <h1>Tienda</h1>
+            <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+        </div> -->
 
-                
-                
+  
+      <section class="container">
+            <div id="app" >
 
                     <section>
                         
@@ -68,20 +71,23 @@
                                         <th>Precio</th>
                                         <th>Stock</th>
                                         <th>Imagen</th>
-                                        
+                                        <!-- <th>Agregar</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
                                    
-                                    <tr v-for="producto in productos">
-                                        <td >{{producto.id}}</td>
+                                    <tr v-for="producto in productos" :key="producto.id">
+                                        <td>{{producto.id}}</td>
                                         <td>{{producto.nombre}}</td>
                                         <td>$ {{producto.precio}}</td>
                                         <td>{{producto.stock}}</td>
                                         <td>
                                             <img :src="producto.imagen" alt="">
                                         </td>
-                                        
+                                        <!-- <td> -->
+                                        <!-- <button class="button-add" onclick="add('product-1', 165000)">Agregar</button> -->
+                                        <!-- <button class="button-add" onclick="agregarAlCarrito({{producto.id}}, {{producto.nombre}}, {{producto.precio}})">Agregar al carrito</button> -->
+                                        <!-- </td> -->
                                         
                                     </tr>
                                 </tbody>
