@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function modificar() {
     let id = document.getElementById("id").value
     let nombre_ingresado = document.getElementById("nombre").value
@@ -80,5 +79,4 @@ function modificar() {
             console.error(err);
             alert("Error al Modificar")
         })      
->>>>>>> 22b0ce1471cad69a40cbe3df113cbb5d4b2075de
 }
