@@ -1,0 +1,30 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Main */
+/* 1er Título (h1) */
+/* .contenedor-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+} */
+
+/* .centrado-vertical-horizontal{
+  text-align: center; /* Centrar horizontalmente dentro del contenedor
+} */
+
+.article-acercade {
+    border: 2px solid #000; /* Establece un borde sólido de 1 píxel de grosor y color negro */
+    border-radius: 15px 15px 15px 15px; /* Establece el radio de las esquinas */
+    padding: 10vh; /* Añade espacio interno para que el contenido no esté pegado al borde */
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    margin-right: 1vw;
+    background-color: rgba(255, 255, 255, .7);
+    /* width:80%; */
+  }
+  

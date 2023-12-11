@@ -1,0 +1,43 @@
+
+*{
+    margin: 0%; /*Elimina todo margen que trae por defecto*/
+    padding: 0%; /*Elimina todo relleno que trae por defecto*/
+    /*font-family: "Itim";*/ /*Fuente desde la carpeta fonts*/
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    text-decoration: none; /*Elimina subrayado*/
+    color: aliceblue;  /*Color texto*/
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* background: rgba(35, 35, 46, 1); */
+    background-color: rgb(0, 0, 0);
+    height: 12vh;
+  }
+.nav-list {
+    padding: 0;
+    margin: 0;
+
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+.contacto {
+    color: rgba(43, 6, 146, 0.8); /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Opcional: quitar el subrayado del enlace */
+  }
+div textarea {
+    resize: none;
+}
+

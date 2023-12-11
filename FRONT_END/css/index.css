@@ -1,0 +1,104 @@
+
+/* Card para las imagenes */
+.card{
+    /* background: radial-gradient(#2F527A, #0B223C); */
+    background: rgba(255,255,255,1);
+    width: 20vw;
+    height: 75vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,2);
+    border-radius: 2vh;
+    border: 1px solid #fff; /* Establece un borde sólido de 1 píxel de grosor y color blanco */
+
+    /* Asignar las propiedades: display, flex-direction
+    align-content*/
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;   
+}
+
+.card > img{
+    width: 20vw;
+    height: auto;
+    border-radius: 2vh 2vh 0vh 0vh;
+}
+
+.card:hover{
+    /* background: rgba(245, 245, 245, 0.72); */
+    background: rgba(255,255,255,.99);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /*Sombra al pasar el cursor por cada caja*/
+    transform: rotateX(10deg) rotateY(10deg);
+}
+
+/* GRID PARA Fotos */
+.fotos{
+    display: grid;
+    /* repeat(auto-fill,minmax(25vw,1fr)) */
+    grid-template-columns:repeat(4,minmax(25vw,1fr)) ;
+    gap:1vh;
+    justify-items:center;
+    /* margin: 5vw; */
+}
+
+/* Puntos de corte */
+@media screen and (max-width:900px){
+    main {
+        height: 240vh;
+      }
+    
+    .fotos{
+       grid-template-columns:repeat(2,minmax(25vw,1fr))
+    }
+.fotos{
+       grid-template-columns:repeat(3,minmax(25vw,1fr))
+    }
+
+    .card{
+       width:30vw;
+       height:75vh;
+    }
+
+    .card > img{
+        width: 30vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:750px){
+    main {
+        height: 350vh;
+      }
+    
+    .fotos{
+       grid-template-columns:repeat(2,minmax(25vw,1fr))
+    }
+
+    .card{
+       width:40vw;
+       height:68vh;
+    }
+
+    .card > img{
+        width: 40vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px){
+    main {
+        height: 690vh;
+      }
+      
+    .fotos{
+       grid-template-columns:repeat(1,minmax(25vw,1fr))
+    }
+
+    .card{
+       width:55vw;
+       height:75vh;
+    }
+
+    .card > img{
+        width: 55vw;
+        height: auto;
+    }
+}

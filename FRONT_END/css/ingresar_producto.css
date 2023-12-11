@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.container-form{
+    border: solid 2px rgba(83, 83, 83, 0.514);
+    border-radius: 5px;
+    width: 90vw;
+    padding-top: 10vh;
+    background: rgb(255, 255, 255, 0.7);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 30vw;
+    height: 50vh;
+    border-radius: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrada{
+    margin-bottom: 2vh;
+}
+
+label{
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+
+button {
+    padding: 0.2vw 0.3vh;
+    font-size: 1.6vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(252, 255, 253, 0.897);
+    color: #ffffff;
+    border: none;
+    border-radius: 0.3vw;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #000a42;
+}
+
+.modificar{
+    color: white;
+    margin-right: 2vh;
+    background-color: aqua; /* Color de fondo */
+    color: black; /* Color del texto */
+    padding: 0.5vw 3vh; /* Relleno interno */
+    border: none; /* Quita el borde */
+    border-radius: 1vw; /* Borde redondeado */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 1vw; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+@media screen and (max-width:768px){
+    form{
+        background-color: rgba(0, 0, 0, 0.616);
+        width: 50vw;
+        height: 50vh;
+        border-radius: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    label{
+        font-size: 4vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: aliceblue;
+    }
+
+    a{
+        font-size: 4vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        color: aliceblue;
+        
+    }
+
+    .modificar{
+        color: white;
+        margin-right: 2vh;
+        background-color: aqua; /* Color de fondo */
+        color: black; /* Color del texto */
+        padding: 0.5vw 3vh; /* Relleno interno */
+        border: none; /* Quita el borde */
+        border-radius: 2vw; /* Borde redondeado */
+        text-align: center; /* Alineación del texto */
+        text-decoration: none; /* Quita el subrayado predeterminado */
+        display: inline-block; /* Mostrar como bloque en línea */
+        font-size: 3vw; /* Tamaño de fuente */
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    }
+}
+
+@media screen and (max-width:425px){
+    form{
+        background-color: rgba(0, 0, 0, 0.616);
+        width: 80vw;
+        height: 40vh;
+        border-radius: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    label{
+        font-size: 6vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: aliceblue;
+    }
+
+    a{
+        font-size: 6vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        color: aliceblue;
+        
+    }
+
+    .modificar{
+        color: white;
+        margin-right: 2vh;
+        background-color: aqua; /* Color de fondo */
+        color: black; /* Color del texto */
+        padding: 0.5vw 3vh; /* Relleno interno */
+        border: none; /* Quita el borde */
+        border-radius: 2vw; /* Borde redondeado */
+        text-align: center; /* Alineación del texto */
+        text-decoration: none; /* Quita el subrayado predeterminado */
+        display: inline-block; /* Mostrar como bloque en línea */
+        font-size: 5vw; /* Tamaño de fuente */
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    }
+}
+
+
+@media screen and (max-width:320px){
+    form{
+        background-color: rgba(0, 0, 0, 0.616);
+        width: 80vw;
+        height: 50vh;
+        border-radius: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    label{
+        font-size: 6vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: aliceblue;
+    }
+
+    a{
+        font-size: 8vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        color: black;
+        
+    }
+}
+
+
