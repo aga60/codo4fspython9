@@ -57,45 +57,41 @@
         </div> -->
 
   
-      <section class="container">
+        <section class="container">
             <div id="app" >
-
-                    <section>
-                        
-                        <div >
-                            <table class="tabla">
-                                <thead>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Nombre</th>
-                                        <th>Precio</th>
-                                        <th>Stock</th>
-                                        <th>Imagen</th>
-                                        <!-- <th>Agregar</th> -->
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                   
-                                    <tr v-for="producto in productos" :key="producto.id">
-                                        <td>{{producto.id}}</td>
-                                        <td>{{producto.nombre}}</td>
-                                        <td>$ {{producto.precio}}</td>
-                                        <td>{{producto.stock}}</td>
-                                        <td>
-                                            <img :src="producto.imagen" alt="">
-                                        </td>
-                                        <!-- <td> -->
-                                        <!-- <button class="button-add" onclick="add('product-1', 165000)">Agregar</button> -->
-                                        <!-- <button class="button-add" onclick="agregarAlCarrito({{producto.id}}, {{producto.nombre}}, {{producto.precio}})">Agregar al carrito</button> -->
-                                        <!-- </td> -->
-                                        
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </section>
+                <section>
+                    <div >
+                        <table class="tabla">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Stock</th>
+                                    <th>Imagen</th>
+                                    <!-- <th>Agregar</th> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="producto in productos" :key="producto.id">
+                                    <td>{{producto.id}}</td>
+                                    <td>{{producto.nombre}}</td>
+                                    <td>$ {{producto.precio}}</td>
+                                    <td>{{producto.stock}}</td>
+                                    <td>
+                                        <img :src="producto.imagen" alt="">
+                                    </td>
+                                    <!-- <td>
+                                         <button class="button-add" onclick="add('product-1', 165000)">Agregar</button>
+                                    </td> -->
+                                    <!-- <td>
+                                        <button class="button-add" @click="agregarAlCarrito(producto)">Agregar al carrito</button>
+                                    </td> -->
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </section>
-
             </div>
         </section>
     </main>
@@ -122,6 +118,7 @@
     <script src="../js/mobile-navbar.js"></script>
     <script src="../js/tienda.js"></script>
     <script src="../js/tabla_productos.js"></script>
+        
 </body>
 
 </html>
